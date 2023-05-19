@@ -11,13 +11,14 @@ const Navigation = () => {
           <CrwnLogo className="logo" />
         </Link>
 
-        <div className="nav-links-container"></div>
-        <Link className="nav-link" to="/shop">
-          Shop
-        </Link>
-        <Link className="nav-link" to="/sign-in">
-          SIGN IN
-        </Link>
+        <div className="nav-links-container">
+          <Link className="nav-link" to="/shop">
+            Shop
+          </Link>
+          <Link className="nav-link" to="/sign-in">
+            SIGN IN
+          </Link>
+        </div>
       </div>
       <Outlet />
     </Fragment>
